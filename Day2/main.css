@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ECF0FC;
+    font-family: 'Rubik', sans-serif;;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.card {
+    text-align: center;
+    width: 540px;
+    background-color: #fff;
+    padding: 76px 56px;
+    box-shadow: 0px 44px 88px 0px #D2DBF5;
+    border-radius: 24px;
+}
+
+.texts {
+    margin-top: 22px;
+}
+
+.texts > h1 {
+    color: #120C35;
+    line-height: 40px;
+}
+
+.texts > p {
+    color: #120C35;
+    opacity: 0.7;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 8px;
+}
+
+
+.cta-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    width: 428px;
+}
+
+.cta-btns > div {
+    border: 1px solid #C2CDEF;
+    width: 132px;
+    padding: 8px;
+    border-radius: 16px;
+    color: #120C35;
+    
+}
+
+.more-options {
+    cursor: pointer;
+}
+
+
+/* *********** */
+/* *********** */
+/* *********** */
+
+.options-menu {
+    list-style-type: none;
+    background-color: #120C35;
+    color: #fff;
+    padding: 24px;
+    border-radius: 24px;
+
+    position: absolute;
+    top: 45%;
+    left: 65%;
+}
+
+.options-menu > li {
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    width: 220px;
+}
+
+.options-menu > li:hover {
+    background-color: #2D2559;
+}
+
+.hidden {
+    display: none;
+}
