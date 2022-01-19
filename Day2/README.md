@@ -2,5 +2,5 @@
 
 OUTPUT:
 
-<code><img src="https://github.com/rahulk31/ui-challenges/blob/main/Day1/assets/day2.png"></code>
+<code><img src="https://github.com/rahulk31/ui-challenges/blob/main/Day2/assets/day2.png"></code>
  
